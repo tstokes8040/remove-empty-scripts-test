@@ -1,0 +1,24 @@
+{
+	"name": "remove-empty-scripts-test",
+	"version": "0.0.1",
+	"description": "This is just a test",
+	"author": "Tyler Stokes",
+	"license": "ISC",
+	"dependencies": {
+	},
+	"devDependencies": {
+        "@wordpress/scripts": "^23.4.0",
+        "cssnano": "^5.1.12",
+        "mini-css-extract-plugin": "^2.6.1",
+        "webpack-remove-empty-scripts": "^0.8.1",
+        "postcss-merge-rules": "^5.1.2",
+        "postcss-preset-env": "^7.7.2",
+        "postcss-sort-media-queries": "^4.2.1",
+        "resolve-url-loader": "^5.0.0",
+        "webpack": "^5.73.0",
+        "@wordpress/dependency-extraction-webpack-plugin": "^4.0.0"
+	},
+	"scripts": {
+		"build": "wp-scripts build --mode=production"
+	}
+}
