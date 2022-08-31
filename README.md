@@ -2,7 +2,7 @@
 
 ## Installation and build
 
-```
+``` text
 yarn install 
 yarn build
 ```
